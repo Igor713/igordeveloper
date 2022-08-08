@@ -1,13 +1,9 @@
-import "./styles/components/app.sass";
-import Sidebar from './components/Sidebar'
-import MainContent from './components/MainContent'
+import AboutContainer from "./components/AboutContainer/AboutContainer";
 
 function App() {
   return (
     <div id="portfolio">
-      <h1>Igor Matheus</h1>
-      <Sidebar />
-      <MainContent />
+      <AboutContainer />
     </div>
   )
 }

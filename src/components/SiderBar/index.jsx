@@ -1,5 +1,5 @@
-import SocialNetworks from './SocialNetworks';
-import InformationContainer from './InformationContainer';
+import SocialNetworks from '../SocialNetWorks';
+import InformationContainer from '../InformationContainer';
 import Avatar from '../img/igor.jpg';
 import '../styles/components/sidebar.sass';
 

@@ -1,0 +1,27 @@
+@use '../../styles/variables'
+@use '../../styles/mixins'
+
+.about-container
+    background-color: #0f172c
+    width: 100%
+
+.wrapper
+    display: flex
+    max-width: variables.$standard-container
+    margin: 0 auto
+    width: 100%
+    .col-1
+        width: 50%
+        padding: 3rem
+        @include mixins.center
+
+        .content
+            color: #fafafa
+            font-size: 1.4rem
+
+    .col-2
+        width: 50%
+        padding: 10px
+        @include mixins.center
+        .content-image
+            width: 100%
