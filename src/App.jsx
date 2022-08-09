@@ -1,9 +1,9 @@
-import AboutContainer from "./components/AboutContainer/AboutContainer";
+import MainContent from "./components/MainContent";
 
 function App() {
   return (
     <div id="portfolio">
-      <AboutContainer />
+      <MainContent />
     </div>
   )
 }

@@ -1,15 +1,18 @@
-import AboutContainer from './AboutContainer';
-import TechnologiesContainer from '../TechnologiesContainer';
-import ProjectsContainer from '../ProjectsContainer';
-
-import '../styles/components/maincontent.sass';
+import './styles.sass';
+import igorPc from './images/igor-pc.png';
 
 const MainContent = () => {
     return (
         <div id="main-content">
-            <AboutContainer />
-            <TechnologiesContainer />
-            <ProjectsContainer />
+            <div className="wrapper">
+                <div className="col-1">
+                    <p className="title">Oi, sou Igor Matheus.</p>
+                    <p className="sub-title">Desenvolvedor Front-End.</p>
+                </div>
+                <div className="col-2">
+                    <img src={igorPc} alt="" className="content-image" />
+                </div>
+            </div>
         </div>
     );
 };
