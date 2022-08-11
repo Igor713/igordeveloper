@@ -6,14 +6,14 @@ const mainButtons = [
     { name: "LinkedIn", class: "linkedin", link: "#", icon: <FaLinkedin /> },
 ]
 
-const Mainbuttons = () => {
+const MainButtons = () => {
     return (
         <div className="main-buttons">
             {mainButtons.map((item) => (
-                <a href={item.link} className={item.class}>{item.icon}{item.name}</a>
+                <a href={item.link} className={item.class} key={item.class}>{item.icon}{item.name}</a>
             ))};
         </div>
     )
 };
 
-export default Mainbuttons;
+export default MainButtons;

@@ -1,0 +1,23 @@
+@use '../../styles/variables'
+@use '../../styles/mixins'
+
+.about-buttons
+    display: inline-flex
+    gap: 20px
+
+    .instagram,
+    .email
+        background-color: transparent
+        border: 1px solid variables.$secundary-color
+        color: variables.$secundary-color
+        display: inline-flex
+        align-items: center
+        gap: 5px
+        text-decoration: none
+        padding: .35rem
+        margin-top: 2rem
+        border-radius: 4px
+
+        &:hover
+            border: 1px solid variables.$secundary-color
+            background-color: variables.$primary-color

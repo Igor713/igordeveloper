@@ -1,22 +1,22 @@
 import './styles.sass';
-import igorPc from '../../assets/igor-pc.png';
-import Mainbuttons from '../MainButtons';
+import IgorPc from '../../assets/igor-pc.png';
+import MainButtons from '../MainButtons';
 
 const MainContent = () => {
     return (
-        <div id="main-content">
-            <div className="wrapper">
+        <section id="main-content">
+            <div className="main-wrapper">
                 <div className="col-1">
                     <p className="title">Oi, sou Igor Matheus.</p>
                     <p className="sub-title">Desenvolvedor Front-End.</p>
 
-                    <Mainbuttons />
+                    <MainButtons />
                 </div>
                 <div className="col-2">
-                    <img src={igorPc} alt="" className="content-image" />
+                    <img src={IgorPc} alt="" className="content-image" />
                 </div>
             </div>
-        </div>
+        </section >
     );
 };
 
