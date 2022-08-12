@@ -1,5 +1,5 @@
 import './styles.sass';
-import IgorPc from '../../assets/igor-pc.png';
+import IgorPc from '../../assets/avatar/igor-pc.png';
 import SocialButtons from '../SocialButtons';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 

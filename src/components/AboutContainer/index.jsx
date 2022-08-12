@@ -1,6 +1,6 @@
 import React from "react";
 import './styles.sass';
-import Igor from '../../assets/Igor.png';
+import Igor from '../../assets/avatar/Igor.png';
 import SocialButtons from "../SocialButtons";
 import { AiFillInstagram } from 'react-icons/ai';
 import { MdEmail } from 'react-icons/md';
