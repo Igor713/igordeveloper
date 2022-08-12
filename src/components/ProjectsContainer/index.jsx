@@ -1,14 +1,15 @@
-import React from "react";
+import CardProject from "../CardProject";
 
 const ProjectsContainer = () => {
     return (
         <section className="projects-container">
-            <h2>Projetos</h2>
+            <div className="projects-wrapper">
+                <h2 className="projects-title">Projetos</h2>
+            </div>
 
-
-            <a href="" className="btn">
-                Ver projetos
-            </a>
+            <div>
+                <CardProject />
+            </div>
         </section>
     );
 };
