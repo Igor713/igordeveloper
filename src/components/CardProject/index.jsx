@@ -1,3 +1,5 @@
+import './styles.sass';
+
 const CardProject = ({ cardImage, cardText, cardTechnologies, cardLink }) => {
     return (
         <div className="card-container">

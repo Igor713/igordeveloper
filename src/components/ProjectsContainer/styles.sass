@@ -1,2 +1,20 @@
 @use '../../styles/variables'
 @use '../../styles/mixins'
+
+.projects-container
+    background-color: variables.$primary-color
+
+    .projects-wrapper
+        max-width: variables.$standard-container
+        margin: 0 auto
+        width: 100%
+
+        .projects-title
+            color: variables.$secundary-color
+            font-size: 4rem
+            font-weight: bold
+            padding: 3rem 0
+            text-align: center
+
+        .carousel
+            display: flex
