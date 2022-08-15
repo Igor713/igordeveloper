@@ -5,9 +5,19 @@
     width: 50%
     padding: 3rem
 
-    .card-image
-        img
-            border: 1px solid variables.$secundary-color
-            border-radius: 4px
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1)
-            width: 100%
+    .card-wrapper
+        border: 1px solid variables.$secundary-color
+        border-radius: 4px
+        background-color: variables.$secundary-color
+        padding: .38rem
+
+        .card-image
+            img
+                border: 1px solid variables.$secundary-color
+                width: 100%
+
+        .card-text
+            color: variables.$primary-color
+            font-size: 14px
+            font-weight: bold
+            margin: .50rem 0
