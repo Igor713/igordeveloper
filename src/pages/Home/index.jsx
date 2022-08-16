@@ -1,6 +1,7 @@
 import AboutContainer from "../../components/AboutContainer";
 import MainContent from "../../components/MainContent";
 import ProjectsContainer from "../../components/ProjectsContainer";
+import TechnologiesContainer from "../../components/TechnologiesContainer";
 
 import './styles.sass';
 
@@ -11,6 +12,7 @@ function App() {
         <MainContent />
         <AboutContainer />
         <ProjectsContainer />
+        <TechnologiesContainer />
       </div>
     </div>
   );
