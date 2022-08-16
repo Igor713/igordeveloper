@@ -1,13 +1,13 @@
 import './styles.sass';
 
-const TechnologyCard = ({ technologyIcon, technologyText, technologySubtitle }) => {
+const TechnologyCard = ({ technologyIcon, technologyClass, technologyText, technologySubtitle }) => {
     return (
         <div className="technology-card-container">
             <div className="technology-card-wrapper">
-                <div className="technology-card-icon">
+                <div className={technologyClass}>
                     {technologyIcon}
                 </div>
-                <div>
+                <div className="text-area">
                     <p className="technology-card-text">{technologyText}</p>
                     <p className="technology-card-subtitle">
                         {technologySubtitle}

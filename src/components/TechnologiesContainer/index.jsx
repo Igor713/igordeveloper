@@ -14,6 +14,7 @@ const TechnologiesContainer = () => {
                 <div className="technologies-content">
                     <TechnologyCard
                         technologyIcon={<AiFillHtml5 />}
+                        technologyClass="html"
                         technologyText={"HTML5"}
                         technologySubtitle={"HTML"}
                     />
@@ -21,19 +22,29 @@ const TechnologiesContainer = () => {
                     <TechnologyCard
                         technologyIcon={<DiCss3 />}
                         technologyText={"CSS"}
+                        technologyClass="css"
                         technologySubtitle={"CSS"}
                     />
 
                     <TechnologyCard
                         technologyIcon={<SiJavascript />}
                         technologyText={"JavaScript"}
+                        technologyClass="javascript"
                         technologySubtitle={"JavaScript"}
                     />
 
                     <TechnologyCard
                         technologyIcon={<DiSass />}
                         technologyText={"Sass"}
+                        technologyClass="sass"
                         technologySubtitle={"Sass"}
+                    />
+
+                    <TechnologyCard
+                        technologyIcon={<DiSass />}
+                        technologyText={"WordPress"}
+                        technologyClass="wordpress"
+                        technologySubtitle={"WordPress"}
                     />
                 </div>
             </div>
