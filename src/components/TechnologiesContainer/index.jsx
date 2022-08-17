@@ -1,7 +1,8 @@
 import React from "react";
 import { AiFillHtml5 } from 'react-icons/ai';
-import { DiCss3, DiSass } from 'react-icons/di';
+import { DiCss3, DiSass, DiReact } from 'react-icons/di';
 import { SiJavascript } from 'react-icons/si';
+import { BsWordpress } from 'react-icons/bs';
 import TechnologyCard from "../TechnologyCard";
 
 import './styles.sass';
@@ -16,35 +17,36 @@ const TechnologiesContainer = () => {
                         technologyIcon={<AiFillHtml5 />}
                         technologyClass="html"
                         technologyText={"HTML5"}
-                        technologySubtitle={"HTML"}
                     />
 
                     <TechnologyCard
                         technologyIcon={<DiCss3 />}
                         technologyText={"CSS"}
                         technologyClass="css"
-                        technologySubtitle={"CSS"}
                     />
 
                     <TechnologyCard
                         technologyIcon={<SiJavascript />}
                         technologyText={"JavaScript"}
                         technologyClass="javascript"
-                        technologySubtitle={"JavaScript"}
                     />
 
                     <TechnologyCard
                         technologyIcon={<DiSass />}
                         technologyText={"Sass"}
                         technologyClass="sass"
-                        technologySubtitle={"Sass"}
                     />
 
                     <TechnologyCard
-                        technologyIcon={<DiSass />}
+                        technologyIcon={<BsWordpress />}
                         technologyText={"WordPress"}
                         technologyClass="wordpress"
-                        technologySubtitle={"WordPress"}
+                    />
+
+                    <TechnologyCard
+                        technologyIcon={<DiReact />}
+                        technologyText={"ReactJS"}
+                        technologyClass="reactjs"
                     />
                 </div>
             </div>

@@ -5,13 +5,29 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1)
     border-radius: 4px
     background-color: #f5f5f5
+    display: flex
+    align-items: center
+    justify-content: center
     padding: 1rem
+    max-height: 200px
+    width: 100%
+    transition: .5s
+    cursor: pointer
+
+    &:hover
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2)
+        transition: .5s
 
     .technology-card-wrapper
         display: flex
         align-items: center
         justify-content: center
         flex-direction: column
+
+        .technology-icon
+            margin-bottom: .5rem
+            svg
+                font-size: 2.5rem
 
         .html
             svg
@@ -32,6 +48,20 @@
         .wordpress
             svg
                 color: #003c56
+
+        .reactjs
+            svg
+                color: #5ed3f3
+
+        .text-area
+            .technology-card-text
+                font-size: 16px
+                font-weight: bold
+                text-align: center
+            .technology-card-subtitle
+                font-size: 14px
+                font-weight: bold
+                text-align: center
 
     // .text-area
     //     .technology-card-text

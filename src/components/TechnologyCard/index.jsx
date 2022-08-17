@@ -4,7 +4,7 @@ const TechnologyCard = ({ technologyIcon, technologyClass, technologyText, techn
     return (
         <div className="technology-card-container">
             <div className="technology-card-wrapper">
-                <div className={technologyClass}>
+                <div className={"technology-icon " + technologyClass}>
                     {technologyIcon}
                 </div>
                 <div className="text-area">
