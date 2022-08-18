@@ -2,6 +2,7 @@ import AboutContainer from "../../components/AboutContainer";
 import MainContent from "../../components/MainContent";
 import ProjectsContainer from "../../components/ProjectsContainer";
 import TechnologiesContainer from "../../components/TechnologiesContainer";
+import Footer from "../../components/Footer";
 
 import './styles.sass';
 
@@ -13,6 +14,7 @@ function App() {
         <AboutContainer />
         <ProjectsContainer />
         <TechnologiesContainer />
+        <Footer />
       </div>
     </div>
   );
