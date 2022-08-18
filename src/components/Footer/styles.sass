@@ -1,2 +1,15 @@
 @use '../../styles/variables'
 @use '../../styles/mixins'
+
+footer
+    background-color: variables.$primary-color
+    .footer-wrapper
+        max-width: variables.$standard-container
+        margin: 0 auto
+        display: flex
+        gap: 10px
+        .footer-col
+            width: 100%
+            .footer-title
+                color: #fff
+                font-weight: bold

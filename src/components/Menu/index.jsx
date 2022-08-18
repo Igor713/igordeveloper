@@ -1,3 +1,5 @@
+import './styles.sass';
+
 const Menu = ({ navClass, navLinks }) => {
     return (
         <nav className={navClass}>
