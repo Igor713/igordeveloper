@@ -1,4 +1,5 @@
 import Menu from "../Menu";
+import igorReal from '../../assets/footer/igor-real.jpg';
 
 import './styles.sass';
 
@@ -7,11 +8,11 @@ const Footer = () => {
         <footer>
             <div className="footer-wrapper">
                 <div className="footer-col">
-
+                    <img src={igorReal} alt="Autoretrato" />
                 </div>
                 <div className="footer-col">
-                    <h4 className="footer-title">Conecte-se</h4>
-                    <div></div>
+                    <h4 className="footer-title">Redes</h4>
+                    <div className="division"></div>
                     <Menu
                         navClass={"footer-nav"}
                         navLinks={[
@@ -23,6 +24,7 @@ const Footer = () => {
                 </div>
                 <div className="footer-col">
                     <h4 className="footer-title">Contatos</h4>
+                    <div className="division"></div>
                     <Menu
                         navClass={"footer-nav"}
                         navLinks={[
@@ -33,6 +35,7 @@ const Footer = () => {
                 </div>
                 <div className="footer-col">
                     <h4 className="footer-title">Navegue</h4>
+                    <div className="division"></div>
                     <Menu
                         navClass={"footer-nav"}
                         navLinks={[
