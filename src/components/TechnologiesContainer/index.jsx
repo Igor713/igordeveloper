@@ -11,8 +11,11 @@ const TechnologiesContainer = () => {
     return (
         <section className="technologies-container">
             <div className="technologies-wrapper">
-                <h2 className="technologies-title">Tecnologias</h2>
-                <div className="technologies-content">
+                <div className="technologies-col-1">
+                    <h1 className="technologies-title">Tecnologias</h1>
+                    <p className="technologies-context">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem natus sunt repudiandae. Ratione, iusto ducimus, aliquam assumenda minima id nam quis quod totam, beatae eveniet maxime nisi porro quia iure!</p>
+                </div>
+                <div className="technologies-col-2">
                     <TechnologyCard
                         technologyIcon={<AiFillHtml5 />}
                         technologyClass="html"
