@@ -6,21 +6,28 @@ import './styles.sass';
 const ProjectsContainer = () => {
     return (
         <section className="projects-container">
+            <h2 className="projects-title">Projetos</h2>
             <div className="projects-wrapper">
-                <h2 className="projects-title">Projetos</h2>
-                <div className="carousel">
-                    <CardProject
-                        cardImage={Project1}
-                        cardText={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"}
-                        cardLink={"#"}
-                    />
+                <CardProject
+                    cardLink={"#"}
+                    cardImage={Project1}
+                    cardTitle={"Lorem"}
+                    cardText={"Lorem"}
+                />
 
-                    <CardProject
-                        cardImage={Project1}
-                        cardText={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"}
-                        cardLink={"#"}
-                    />
-                </div>
+                <CardProject
+                    cardLink={"#"}
+                    cardImage={Project1}
+                    cardTitle={"Lorem"}
+                    cardText={"Lorem"}
+                />
+
+                <CardProject
+                    cardLink={"#"}
+                    cardImage={Project1}
+                    cardTitle={"Lorem"}
+                    cardText={"Lorem"}
+                />
             </div>
         </section>
     );

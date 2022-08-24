@@ -1,23 +1,17 @@
 import SocialButtons from '../SocialButtons';
 import './styles.sass';
 
-const CardProject = ({ cardImage, cardText }) => {
+const CardProject = ({ cardLink, cardImage, cardTitle, cardText }) => {
     return (
-        <div className="card-container">
-            <div className="card-wrapper">
-                <div className="card-image">
-                    <img src={cardImage} alt="Imagem do projeto" />
-                </div>
-                <div>
-                    <p className="card-text">{cardText}</p>
-                    <SocialButtons
-                        link={"#"}
-                        className={"project-button"}
-                        name={"Veja mais"}
-                    />
-                </div>
+        <a className="card-container" href={cardLink} target="blank">
+            <div className="card-image">
+                <img src={cardImage} alt="Imagem do projeto" />
             </div>
-        </div>
+            <div className="card-wrapper">
+                <h3 className="card-title">{cardTitle}</h3>
+                <p className="card-text">{cardText}</p>
+            </div>
+        </a>
     );
 };
 

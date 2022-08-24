@@ -2,17 +2,15 @@
 @use '../../styles/mixins'
 
 .projects-container
+    .projects-title
+        font-size: 4rem
+        font-weight: bold
+        padding: 3rem 0
+        text-align: center
     .projects-wrapper
         max-width: variables.$standard-container
         margin: 0 auto
         width: 100%
-
-        .projects-title
-            color: variables.$secundary-color
-            font-size: 4rem
-            font-weight: bold
-            padding: 3rem 0
-            text-align: center
-
-        .carousel
-            display: flex
+        display: grid
+        grid-template-columns: repeat(3, 1fr)
+        gap: 15px
