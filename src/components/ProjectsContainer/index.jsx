@@ -6,28 +6,38 @@ import './styles.sass';
 const ProjectsContainer = () => {
     return (
         <section className="projects-container">
-            <h2 className="projects-title">Projetos</h2>
+
             <div className="projects-wrapper">
-                <CardProject
-                    cardLink={"#"}
-                    cardImage={Project1}
-                    cardTitle={"Lorem"}
-                    cardText={"Lorem"}
-                />
+                <h2 className="projects-title">Projetos</h2>
+                <div className="projects">
+                    <CardProject
+                        cardLink={"#"}
+                        cardImage={Project1}
+                        cardTitle={"Lorem"}
+                        cardText={"Lorem"}
+                    />
 
-                <CardProject
-                    cardLink={"#"}
-                    cardImage={Project1}
-                    cardTitle={"Lorem"}
-                    cardText={"Lorem"}
-                />
+                    <CardProject
+                        cardLink={"#"}
+                        cardImage={Project1}
+                        cardTitle={"Lorem"}
+                        cardText={"Lorem"}
+                    />
 
-                <CardProject
-                    cardLink={"#"}
-                    cardImage={Project1}
-                    cardTitle={"Lorem"}
-                    cardText={"Lorem"}
-                />
+                    <CardProject
+                        cardLink={"#"}
+                        cardImage={Project1}
+                        cardTitle={"Lorem"}
+                        cardText={"Lorem"}
+                    />
+
+                    <CardProject
+                        cardLink={"#"}
+                        cardImage={Project1}
+                        cardTitle={"Lorem"}
+                        cardText={"Lorem"}
+                    />
+                </div>
             </div>
         </section>
     );

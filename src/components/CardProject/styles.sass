@@ -1,11 +1,9 @@
 @use '../../styles/variables'
 @use '../../styles/mixins'
 
-.card-container
-    border: 1px solid variables.$secundary-color
+.card-content
     border-radius: 4px
     cursor: pointer
-    background-color: variables.$secundary-color
     text-decoration: none
 
     .card-image
@@ -40,3 +38,18 @@
                 transform: translateY(10px)
         .card-wrapper
             transform: translateY(-60px)
+
+@media (max-width: 768px)
+    .card-content
+        .card-image
+            img
+                width: 300px
+                max-width: 400px
+        .card-wrapper
+            backdrop-filter: blur(5px)
+            margin: 0 20px
+            padding: 20px 20px
+            border-radius: 4px
+            transform: translateY(-50px)
+            transition: 0.3s linear
+            box-shadow: 0 7px 10px rgba(0, 0, 0, 0.1)
