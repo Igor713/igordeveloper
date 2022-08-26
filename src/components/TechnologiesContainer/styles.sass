@@ -3,13 +3,14 @@
 
 .technologies-container
     width: 100%
+
+    padding: 100px 0
     .technologies-wrapper
         max-width: variables.$standard-container
         margin: 0 auto
         width: 100%
         display: flex
         gap: 2.5rem
-        padding: 100px 0
 
         .technologies-col-1
             width: 50%
@@ -29,14 +30,16 @@
 
 @media (max-width: 768px)
     .technologies-container
+        max-width: variables.$standard-container
+        margin: 0 auto
         width: 100%
+        padding: 0 0.75rem 50px
+
         .technologies-wrapper
-            max-width: variables.$standard-container
-            margin: 0 auto
             width: 100%
             display: flex
+            flex-direction: column
             gap: 2rem
-            padding: 40px 0.75rem
             .technologies-col-1
                 width: 100%
 

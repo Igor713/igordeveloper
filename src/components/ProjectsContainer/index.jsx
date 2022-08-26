@@ -9,6 +9,7 @@ const ProjectsContainer = () => {
 
             <div className="projects-wrapper">
                 <h2 className="projects-title">Projetos</h2>
+                <p className="projects-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit fugit sint saepe, itaque a accusamus at assumenda ex dolorum perferendis quos molestias quam. Accusantium dignissimos facere molestiae distinctio id suscipit!</p>
                 <div className="projects">
                     <CardProject
                         cardLink={"#"}

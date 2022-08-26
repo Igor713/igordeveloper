@@ -2,15 +2,21 @@
 @use '../../styles/mixins'
 
 .projects-container
+    max-width: variables.$standard-container
+    margin: 0 auto
     .projects-wrapper
         .projects-title
-            font-size: 4rem
+            font-size: 40px
             font-weight: bold
-            padding: 3rem 0
             text-align: center
-        .projects
-            max-width: variables.$standard-container
+
+        .projects-text
             margin: 0 auto
+            padding: 20px 0
+            max-width: 500px
+            text-align: center
+
+        .projects
             width: 100%
             display: grid
             grid-template-columns: repeat(3, 1fr)
@@ -18,13 +24,12 @@
 
 @media (max-width: 768px)
     .projects-container
-        padding: 40px 0.75rem
+        padding: 0 0.75rem 50px
         .projects-wrapper
             .projects-title
-                font-size: 4rem
+                font-size: 40px
                 font-weight: bold
-                padding: 3rem 0
-                text-align: center
+                text-align: left
             .projects
                 max-width: variables.$standard-container
                 margin: 0 auto

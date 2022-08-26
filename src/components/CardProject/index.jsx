@@ -3,7 +3,7 @@ import './styles.sass';
 
 const CardProject = ({ cardLink, cardImage, cardTitle, cardText }) => {
     return (
-        <div className="card-content" href={cardLink} target="blank">
+        <a className="card-content" href={cardLink}>
             <div className="card-image">
                 <img src={cardImage} alt="Imagem do projeto" />
             </div>
@@ -11,7 +11,7 @@ const CardProject = ({ cardLink, cardImage, cardTitle, cardText }) => {
                 <h3 className="card-title">{cardTitle}</h3>
                 <p className="card-text">{cardText}</p>
             </div>
-        </div>
+        </a>
     );
 };
 

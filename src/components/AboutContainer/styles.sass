@@ -2,43 +2,42 @@
 @use '../../styles/mixins'
 
 .about-container
-    width: 100%
-
-.about-wrapper
-    display: flex
-    width: 100%
-    max-width: variables.$standard-container
-    margin: 0 auto
-
-    .col-1
-        width: 50%
-        padding: 3rem 0
-        .about-image
-            width: 100%
-
-    .col-2
-        width: 50%
-        padding: 3rem 0
+    background-color: variables.$primary-color
+    .about-wrapper
         display: flex
-        flex-direction: column
-        align-items: flex-start
-        justify-content: center
-        .about-title
-            color: variables.$secundary-color
-            font-size: 4rem
-            font-weight: bold
-        .about-country
-            color: variables.$secundary-color
-            font-size: 2rem
-            font-weight: bold
-            line-height: 15px
-        .about-text
-            color: #fafafa
-            font-size: 1.4rem
-            font-weight: bold
-            margin-top: 2rem
+        padding: 100px 0
+        width: 100%
+        max-width: variables.$standard-container
+        margin: 0 auto
+        .col-1
+            width: 50%
+            padding: 3rem 0
+            .about-image
+                width: 100%
 
-        .about-buttons
-            display: inline-flex
-            margin-top: 2rem
-            gap: 20px
+        .col-2
+            width: 50%
+            padding: 3rem 0
+            display: flex
+            flex-direction: column
+            align-items: flex-start
+            justify-content: center
+            .about-title
+                color: variables.$additional-color
+                font-size: 4rem
+                font-weight: bold
+            .about-country
+                color: variables.$additional-color
+                font-size: 2rem
+                font-weight: bold
+                line-height: 15px
+            .about-text
+                color: variables.$additional-color
+                font-size: 1.4rem
+                font-weight: bold
+                margin-top: 2rem
+
+            .about-buttons
+                display: inline-flex
+                margin-top: 2rem
+                gap: 20px
