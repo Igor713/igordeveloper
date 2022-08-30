@@ -41,3 +41,65 @@
                 display: inline-flex
                 margin-top: 2rem
                 gap: 20px
+                .instagram,
+                .email
+                    border: 1px solid variables.$primary-color
+                    background-color: variables.$primary-color
+                    color: variables.$secundary-color
+
+                    &:hover
+                        border: 1px solid variables.$secundary-color
+                        background-color: transparent
+
+@media (max-width: 768px)
+    .about-container
+        background-color: variables.$primary-color
+        padding: 0 0.75rem
+        margin-bottom: 50px
+        .about-wrapper
+            display: flex
+            flex-direction: column-reverse
+            padding: 0
+            width: 100%
+            margin: 0 auto
+            .col-1
+                width: 100%
+                padding: 0 0 20px 0
+                .about-image
+                    width: 100%
+
+            .col-2
+                width: 100%
+                display: flex
+                flex-direction: column
+                align-items: flex-start
+                justify-content: center
+                .about-title
+                    color: variables.$secundary-color
+                    font-size: 40px
+                    font-weight: bold
+                .about-country
+                    color: variables.$additional-color
+                    font-size: 18px
+                    font-weight: normal
+                    line-height: 15px
+                .about-text
+                    color: variables.$secundary-color
+                    font-size: 18px
+                    font-weight: bold
+                    margin-top: 2rem
+                    line-height: 25px
+
+                .about-buttons
+                    display: inline-flex
+                    margin-top: 2rem
+                    gap: 20px
+                    .instagram,
+                    .email
+                        border: 1px solid variables.$additional-color
+                        background-color: variables.$additional-color
+                        color: variables.$secundary-color
+
+                        &:hover
+                            border: 1px solid variables.$secundary-color
+                            background-color: transparent

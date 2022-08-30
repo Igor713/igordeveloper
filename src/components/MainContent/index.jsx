@@ -1,6 +1,7 @@
 import './styles.sass';
 import IgorPc from '../../assets/avatar/igor-pc.png';
 import SocialButtons from '../SocialButtons';
+import Divider from '../Divider';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const MainContent = () => {
@@ -31,6 +32,7 @@ const MainContent = () => {
                     <img src={IgorPc} alt="" className="content-image" />
                 </div>
             </div>
+            <Divider backgroundColor={"#fff"} />
         </section >
     );
 };

@@ -5,40 +5,109 @@
     background: variables.$primary-color
     width: 100%
 
-.main-wrapper
-    display: flex
-    max-width: variables.$standard-container
-    margin: 0 auto
-    width: 100%
-    .col-1
-        width: 50%
-        padding: 3rem 0
+    .main-wrapper
         display: flex
-        flex-direction: column
-        justify-content: center
+        max-width: variables.$standard-container
+        margin: 0 auto
+        width: 100%
+        padding: 100px 0
+        .col-1
+            width: 50%
+            display: flex
+            flex-direction: column
+            justify-content: center
 
-        .title
-            color: variables.$secundary-color
-            font-size: 4rem
-            font-weight: bold
+            .title
+                color: variables.$secundary-color
+                font-size: 4rem
+                font-weight: bold
 
-        .sub-title
-            color: #fafafa
-            font-size: 2rem
-            font-weight: bold
-            margin-top: 3rem
-            max-width: 15rem
+            .sub-title
+                color: #fafafa
+                font-size: 2rem
+                font-weight: bold
+                margin-top: 3rem
+                max-width: 15rem
 
-        .main-buttons
-            display: inline-flex
-            margin-top: 2rem
-            gap: 20px
+            .main-buttons
+                display: inline-flex
+                margin-top: 2rem
+                gap: 20px
+                .github,
+                .linkedin
+                    background-color: variables.$additional-color
+                    border: 1px solid variables.$additional-color
+                    color: variables.$secundary-color
 
-    .col-2
-        width: 50%
-        padding: 3rem 0
-        display: flex
-        justify-content: center
-        align-items: center
-        .content-image
+                    &:hover
+                        border: 1px solid variables.$secundary-color
+                        background-color: transparent
+
+        .col-2
+            width: 50%
+            display: flex
+            justify-content: center
+            align-items: center
+            .content-image
+                width: 90%
+
+    .divider
+        margin: 0 auto
+        background-color: variables.$primary-color
+
+@media (max-width: 768px)
+    #main-content
+        background: variables.$primary-color
+        width: 100%
+        margin-bottom: -1px
+
+        .main-wrapper
+            display: flex
+            flex-direction: column
+            margin: 0 auto
             width: 100%
+            padding: 40px 0.75rem
+            gap: 40px
+            .col-1
+                width: 100%
+                display: flex
+                flex-direction: column
+                justify-content: center
+
+                .title
+                    color: variables.$secundary-color
+                    font-size: 40px
+                    font-weight: bold
+
+                .sub-title
+                    color: #fafafa
+                    font-size: 18px
+                    font-weight: normal
+                    margin-top: 10px
+
+                .main-buttons
+                    font-size: 14px
+                    display: inline-flex
+                    margin-top: 2rem
+                    gap: 20px
+                    .github,
+                    .linkedin
+                        background-color: variables.$additional-color
+                        border: 1px solid variables.$additional-color
+                        color: variables.$secundary-color
+
+                        &:hover
+                            border: 1px solid variables.$secundary-color
+                            background-color: transparent
+
+            .col-2
+                width: 100%
+                display: flex
+                justify-content: center
+                align-items: center
+                .content-image
+                    width: 80%
+
+        .divider
+            margin: 0 auto
+            background-color: variables.$primary-color
