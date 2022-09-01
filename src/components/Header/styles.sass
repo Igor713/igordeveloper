@@ -1,0 +1,46 @@
+@use '../../styles/variables'
+@use '../../styles/mixins'
+
+header
+    background: variables.$primary-color
+    .header-container
+        max-width: variables.$standard-container
+        margin: 0 auto
+        display: flex
+        padding: 15px 0
+        justify-content: space-between
+
+        .brand
+            img
+                width: 100%
+                max-width: 40px
+                height: auto
+
+        .header-navigation
+            .header-nav
+                ul
+                    display: flex
+                    width: 100%
+                    gap: 20px
+                    li
+                        a
+                            color: variables.$secundary-color
+                            display: inline-block
+                            position: relative
+                            font-size: 18px
+                            &::before
+                                content: ""
+                                transition: .5s
+                                position: absolute
+                                bottom: 0
+                                width: 0
+
+                            &:hover
+                                &::before
+                                    content: ""
+                                    position: absolute
+                                    bottom: 0
+                                    height: 2px
+                                    background-color: #f5f5f5
+                                    width: 100%
+                                    transition: .5s

@@ -5,11 +5,13 @@ import TechnologiesContainer from "../../components/TechnologiesContainer";
 import Footer from "../../components/Footer";
 
 import './styles.sass';
+import Header from "../../components/Header";
 
 function App() {
   return (
     <div id="portfolio">
       <div className="portfolio-wrapper">
+        <Header />
         <MainContent />
         <AboutContainer />
         <ProjectsContainer />
