@@ -7,6 +7,7 @@ header
         max-width: variables.$standard-container
         margin: 0 auto
         display: flex
+        align-items: center
         padding: 15px 0
         justify-content: space-between
 
@@ -15,6 +16,9 @@ header
                 width: 100%
                 max-width: 40px
                 height: auto
+
+        .header-mobile-btn
+            display: none
 
         .header-navigation
             .header-nav
@@ -27,7 +31,7 @@ header
                             color: variables.$secundary-color
                             display: inline-block
                             position: relative
-                            font-size: 18px
+                            font-size: 20px
                             &::before
                                 content: ""
                                 transition: .5s
@@ -44,3 +48,75 @@ header
                                     background-color: #f5f5f5
                                     width: 100%
                                     transition: .5s
+
+@media (max-width: 768px)
+    header
+        background: variables.$primary-color
+        .header-container
+            max-width: variables.$standard-container
+            margin: 0 auto
+            display: flex
+            align-items: center
+            padding: 15px 0
+            justify-content: space-between
+
+            .brand
+                img
+                    width: 100%
+                    max-width: 40px
+                    height: auto
+
+            .header-mobile-btn
+                position: relative
+                display: flex
+                justify-content: center
+                align-items: center
+                width: 40px
+                height: 40px
+                transition: all .5s ease-in-out
+                .menu-btn
+                    width: 30px
+                    height: 3px
+                    background: variables.$secundary-color
+                    border-radius: 5px
+                    transition: all .5s ease-in-out
+
+                    &::after,
+                    &::before
+                        content: ''
+                        position: absolute
+                        width: 30px
+                        height: 3px
+                        background: variables.$secundary-color
+                        border-radius: 5px
+                        transition: all .5s ease-in-out
+
+                    &::after
+                        transform: translateY(-16px)
+
+                    &::before
+                        transform: translateY(16px)
+
+                &.open
+                    .menu-btn
+                        transform: translateX(-50px)
+                        background: transparent
+
+                        &::before
+                            transform: rotate(45deg) translate(35px, -35px)
+
+                        &::after
+                            transform: rotate(-45deg) translate(35px, 35px)
+
+            .header-navigation
+                .header-nav
+                    ul
+                        display: flex
+                        width: 100%
+                        gap: 20px
+                        li
+                            a
+                                color: variables.$secundary-color
+                                display: inline-block
+                                position: relative
+                                font-size: 20px
