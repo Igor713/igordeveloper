@@ -20,7 +20,7 @@ const Header = () => {
                 <div className={isActive ? 'header-mobile-btn' : 'header-mobile-btn open'} onClick={handleClick}>
                     <div className="menu-btn"></div>
                 </div>
-                <div className="header-navigation">
+                <div className={isActive ? 'header-navigation open' : 'header-navigation'}>
                     <Menu
                         navClass={"header-nav"}
                         navLinks={[
