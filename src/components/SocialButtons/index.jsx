@@ -2,7 +2,7 @@ import './styles.sass';
 
 const SocialButtons = ({ name, className, link, icon }) => {
     return (
-        <a href={link} className={className}>{icon}{name}</a>
+        <a href={link} className={className} target="blank">{icon}{name}</a>
     )
 };
 

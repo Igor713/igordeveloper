@@ -14,14 +14,14 @@ const MainContent = () => {
 
                     <div className="main-buttons">
                         <SocialButtons
-                            link={"#"}
+                            link={"https://github.com/Igor713"}
                             name={"GitHub"}
                             className="github button"
                             icon={<FaGithub />}
                         />
 
                         <SocialButtons
-                            link={"#"}
+                            link={"https://www.linkedin.com/in/igor-matheus-16a786118/"}
                             name={"LinkedIn"}
                             className="linkedin button"
                             icon={<FaLinkedin />}

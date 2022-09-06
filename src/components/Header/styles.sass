@@ -49,9 +49,13 @@ header
                                     width: 100%
                                     transition: .5s
 
+            .information-container
+                display: none
+
 @media (max-width: 768px)
     header
         background: variables.$primary-color
+        margin-bottom: -1px
         .header-container
             max-width: variables.$standard-container
             margin: 0 auto
@@ -141,3 +145,18 @@ header
                                 display: inline-block
                                 position: relative
                                 font-size: 20px
+
+                .information-container
+                    background: variables.$secundary-color
+                    bottom: 0
+                    left: 0
+                    position: absolute
+                    display: flex
+                    width: 100%
+                    flex-direction: column
+                    gap: 10px
+                    padding: 0.75rem
+                    .information-link
+                        color: variables.$additional-color
+                        text-decoration: none
+                        font-weight: 500

@@ -1,5 +1,6 @@
 import CardProject from "../CardProject";
 import Project1 from '../../assets/projects/example.png';
+import Baja from '../../assets/projects/baja.png';
 
 import './styles.sass';
 import Divider from "../Divider";
@@ -17,7 +18,7 @@ const ProjectsContainer = () => {
                 <div className="projects">
                     <CardProject
                         cardLink={"#"}
-                        cardImage={Project1}
+                        cardImage={Baja}
                         cardTitle={"Lorem"}
                         cardText={"Lorem"}
                     />

@@ -7,7 +7,7 @@ import { MdEmail } from 'react-icons/md';
 
 const AboutContainer = () => {
     return (
-        <section className="about-container">
+        <section id="about-container">
             <div className="about-wrapper">
                 <div className="col-1">
                     <img src={Igor} alt="Igor" className="about-image" />
@@ -19,14 +19,14 @@ const AboutContainer = () => {
 
                     <div className="about-buttons">
                         <SocialButtons
-                            link={"#"}
+                            link={"https://www.instagram.com/1gor_matheus/"}
                             name={"Instagram"}
                             className="instagram button"
                             icon={<AiFillInstagram />}
                         />
 
                         <SocialButtons
-                            link={"#"}
+                            link={"mailto:igormatheussiquieri@gmail.com"}
                             name={"E-mail"}
                             className="email button"
                             icon={<MdEmail />}
