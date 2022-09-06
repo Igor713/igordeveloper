@@ -24,7 +24,7 @@ const Header = () => {
                     <Menu
                         navClass={"header-nav"}
                         navLinks={[
-                            { name: "Sobre mim", link: "#" },
+                            { name: "Sobre mim", link: "#about-container" },
                             { name: "Projetos", link: "#" },
                             { name: "Tecnologias", link: "#" },
                             { name: "WhatsApp", link: "https://api.whatsapp.com/send?phone=554599431951&text=Ol%C3%A1" }
