@@ -7,7 +7,7 @@ import Divider from "../Divider";
 
 const ProjectsContainer = () => {
     return (
-        <section className="projects-container">
+        <section id="projects-container">
 
             <div className="projects-wrapper">
                 <h2 className="projects-title">Projetos</h2>

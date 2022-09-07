@@ -41,11 +41,14 @@ const Footer = () => {
                         navClass={"footer-nav"}
                         navLinks={[
                             { name: "Sobre mim", link: "#about-container" },
-                            { name: "Projetos", link: "#" },
-                            { name: "Tecnologias", link: "#" }
+                            { name: "Projetos", link: "#projects-container" },
+                            { name: "Tecnologias", link: "#technologies-container" }
                         ]}
                     />
                 </div>
+            </div>
+            <div className="copyright">
+                © Copyright 2022 | Created by Igor Siquieri
             </div>
         </footer>
     );

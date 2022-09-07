@@ -1,7 +1,7 @@
 @use '../../styles/variables'
 @use '../../styles/mixins'
 
-.projects-container
+#projects-container
     max-width: variables.$standard-container
     margin: 0 auto
     padding-top: 100px
@@ -28,8 +28,9 @@
             gap: 15px
 
 @media (max-width: 768px)
-    .projects-container
+    #projects-container
         padding: 0 0.75rem 50px
+        position: relative
         .projects-wrapper
             .projects-title
                 font-size: 40px
