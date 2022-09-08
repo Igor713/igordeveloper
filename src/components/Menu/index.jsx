@@ -6,7 +6,7 @@ const Menu = ({ navClass, navLinks }) => {
             <ul>
                 {navLinks.map((item) => (
                     <li>
-                        <a href={item.link}>
+                        <a href={item.link} target={item.target}>
                             {item.name}
                         </a>
                     </li>

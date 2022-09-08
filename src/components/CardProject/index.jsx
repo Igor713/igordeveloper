@@ -11,8 +11,8 @@ const CardProject = ({ cardLink, cardImage, cardTitle, cardText }) => {
             </div>
             <div className="card-wrapper">
                 <h3 className="card-title">{cardTitle}</h3>
-                <a href={cardLink} className="access">Acesse</a>
                 <p className="card-text">{cardText}</p>
+                <a className="access" href={cardLink} target="blank">Acesse</a>
             </div>
         </div>
     );

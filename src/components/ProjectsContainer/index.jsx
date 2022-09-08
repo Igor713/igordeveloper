@@ -1,6 +1,9 @@
 import CardProject from "../CardProject";
 import Project1 from '../../assets/projects/example.png';
 import Baja from '../../assets/projects/baja.png';
+import Diagnose from '../../assets/projects/diagnose-toledo.png';
+import Portfolio from '../../assets/projects/portfolio.png';
+import DayNight from '../../assets/projects/day-night.png';
 
 import './styles.sass';
 import Divider from "../Divider";
@@ -17,31 +20,31 @@ const ProjectsContainer = () => {
                 <p className="projects-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit fugit sint saepe, itaque a accusamus at assumenda ex dolorum perferendis quos molestias quam. Accusantium dignissimos facere molestiae distinctio id suscipit!</p>
                 <div className="projects">
                     <CardProject
-                        cardLink={"#"}
+                        cardLink={"https://github.com/Igor713/Baja"}
                         cardImage={Baja}
-                        cardTitle={"Lorem"}
-                        cardText={"Lorem"}
+                        cardTitle={"Projeto Baja"}
+                        cardText={"HTML, CSS e JavaScript"}
+                    />
+
+                    <CardProject
+                        cardLink={"https://github.com/Igor713/diagnose"}
+                        cardImage={Diagnose}
+                        cardTitle={"Diagnose Toledo"}
+                        cardText={"WordPress"}
                     />
 
                     <CardProject
                         cardLink={"#"}
-                        cardImage={Project1}
-                        cardTitle={"Lorem"}
-                        cardText={"Lorem"}
+                        cardImage={Portfolio}
+                        cardTitle={"Meu portfólio"}
+                        cardText={"ReactJs e SASS"}
                     />
 
                     <CardProject
-                        cardLink={"#"}
-                        cardImage={Project1}
-                        cardTitle={"Lorem"}
-                        cardText={"Lorem"}
-                    />
-
-                    <CardProject
-                        cardLink={"#"}
-                        cardImage={Project1}
-                        cardTitle={"Lorem"}
-                        cardText={"Lorem"}
+                        cardLink={"https://github.com/Igor713/DayNight"}
+                        cardImage={DayNight}
+                        cardTitle={"DayNight"}
+                        cardText={"CSS"}
                     />
                 </div>
             </div>

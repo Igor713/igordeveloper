@@ -17,9 +17,9 @@ const Footer = () => {
                     <Menu
                         navClass={"footer-nav"}
                         navLinks={[
-                            { name: "Instagram", link: "https://www.instagram.com/1gor_matheus" },
-                            { name: "GitHub", link: "https://github.com/Igor713" },
-                            { name: "LinkedIn", link: "https://www.linkedin.com/in/igor-matheus-16a786118" }
+                            { name: "Instagram", link: "https://www.instagram.com/1gor_matheus", target: "blank" },
+                            { name: "GitHub", link: "https://github.com/Igor713", target: "blank" },
+                            { name: "LinkedIn", link: "https://www.linkedin.com/in/igor-matheus-16a786118", target: "blank" }
                         ]}
                     />
                 </div>
@@ -30,7 +30,7 @@ const Footer = () => {
                         navClass={"footer-nav"}
                         navLinks={[
                             { name: "E-mail", link: "mailto:igormatheussiquieri@gmail.com" },
-                            { name: "WhatsApp", link: "https://api.whatsapp.com/send?phone=554599431951&text=Ol%C3%A1" }
+                            { name: "WhatsApp", link: "https://api.whatsapp.com/send?phone=554599431951&text=Ol%C3%A1", target: "blank" }
                         ]}
                     />
                 </div>
