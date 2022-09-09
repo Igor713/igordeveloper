@@ -15,7 +15,10 @@ const AboutContainer = () => {
                 <div className="col-2">
                     <p className="about-title">Sobre mim</p>
                     <p className="about-country">Toledo/PR</p>
-                    <p className="about-text">Oi, sou Igor Matheus, tenho 23 anos e nasci em Umuarama interior do Paraná e cresci em Guaíra. Atualmente, moro sozinho em Toledo. Para conseguir isso batalho todo dia, busco uma vaga de front end Jr, uma área pela qual gosto muito.</p>
+                    <p className="about-text">Meu nome é Igor, tenho 24 anos e sou natural de Umuarama e cresci em Guaíra. Me mudei para Toledo com 17 anos, onde vivo até hoje.</p>
+                    <p className="about-text">Sempre gostei de computadores, tecnologias, internet e jogos. Por isso, terminando o ensino médio comecei a faculdade de analise e desenvolvimento de sistemas.</p>
+                    <p className="about-text">Em 2020 tive a oportunidade de iniciar como desenvolvedor front-end, onde aprendi muitas coisas novas e conforme o tempo foi passando minha mente foi se abrindo para experiencias diferentes com o desenvolvimento web.</p>
+                    <p className="about-text">Tenho algumas dificuldades referente a linguagem Reactjs. Com o objetivo de encarar este problema de frente, estou desenvolvendo este portfolio próprio, pois acredito que a prática leva à perfeição. Espero que o meu desenvolvimento técnico e pessoal seja notado ao longo do tempo e espero que eu possa colocar em prática o que eu aprendi como front-end e como pessoa.</p>
 
                     <div className="about-buttons">
                         <SocialButtons

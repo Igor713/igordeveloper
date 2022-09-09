@@ -18,14 +18,14 @@ const Header = () => {
                     <div className="brand">
                         <img src={Brand} alt="Logo" />
                     </div>
-                    <div className={isActive ? 'header-mobile-btn' : 'header-mobile-btn open'} onClick={handleClick}>
+                    <div className={isActive ? 'header-mobile-btn' : 'header-mobile-btn close'} onClick={handleClick}>
                         <div className="menu-btn"></div>
                     </div>
-                    <div className={isActive ? 'header-navigation open' : 'header-navigation'}>
-                        <Menu
+                    <div className={isActive ? 'header-navigation close' : 'header-navigation'}>
+                        <Menu click={handleClick}
                             navClass={"header-nav"}
                             navLinks={[
-                                { name: "Sobre mim", link: "#about-container", target: "" },
+                                { name: "Sobre mim", link: "#about-container" },
                                 { name: "Projetos", link: "#projects-container" },
                                 { name: "Tecnologias", link: "#technologies-container" },
                                 { name: "WhatsApp", link: "https://api.whatsapp.com/send?phone=554599431951&text=Ol%C3%A1", target: "blank" }

@@ -48,7 +48,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="copyright">
-                © Copyright 2022 | Created by Igor Siquieri
+                © Copyright {(new Date().getFullYear())} | Created by Igor Siquieri
             </div>
         </footer>
     );

@@ -3,11 +3,12 @@ import MainContent from "../../components/MainContent";
 import ProjectsContainer from "../../components/ProjectsContainer";
 import TechnologiesContainer from "../../components/TechnologiesContainer";
 import Footer from "../../components/Footer";
+import Header from "../../components/Header";
+import { useState } from "react";
 
 import './styles.sass';
-import Header from "../../components/Header";
 
-function App() {
+const App = () => {
   return (
     <div id="portfolio">
       <div className="portfolio-wrapper">
