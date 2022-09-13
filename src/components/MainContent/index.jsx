@@ -9,8 +9,8 @@ const MainContent = () => {
         <section id="main-content">
             <div className="main-wrapper">
                 <div className="col-1">
-                    <p className="title">Oi, sou Igor Matheus.</p>
-                    <p className="sub-title">Desenvolvedor Front-End.</p>
+                    <p className="title">Oi, sou Igor Matheus</p>
+                    <p className="sub-title">Desenvolvedor Front-End</p>
 
                     <div className="main-buttons">
                         <SocialButtons

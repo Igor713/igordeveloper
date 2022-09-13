@@ -17,7 +17,7 @@ const ProjectsContainer = () => {
                 <Divider
                     backgroundColor={"#1890e0"}
                 />
-                <p className="projects-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit fugit sint saepe, itaque a accusamus at assumenda ex dolorum perferendis quos molestias quam. Accusantium dignissimos facere molestiae distinctio id suscipit!</p>
+                <p className="projects-text">Em 2020 tive a oportunidade de iniciar como desenvolvedor front-end, onde aprendi muitas coisas novas e conforme o tempo foi passando minha mente foi se abrindo para experiências diferentes com o desenvolvimento web. Logo abaixo apresento os meus projetos que desenvolvi ao decorrer do tempo.</p>
                 <div className="projects">
                     <CardProject
                         cardLink={"https://github.com/Igor713/Baja"}

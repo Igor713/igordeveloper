@@ -1,7 +1,7 @@
 import React from "react";
-import { AiFillHtml5 } from 'react-icons/ai';
+import { AiFillHtml5, AiFillGithub } from 'react-icons/ai';
 import { DiCss3, DiSass, DiReact } from 'react-icons/di';
-import { SiJavascript } from 'react-icons/si';
+import { SiJavascript, SiBootstrap, SiVisualstudio } from 'react-icons/si';
 import { BsWordpress } from 'react-icons/bs';
 import TechnologyCard from "../TechnologyCard";
 
@@ -17,8 +17,10 @@ const TechnologiesContainer = () => {
                     <Divider
                         backgroundColor={"#1890e0"}
                     />
-                    <p className="technologies-context">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem natus sunt repudiandae. Ratione, iusto ducimus, aliquam assumenda minima id nam quis quod totam, beatae eveniet maxime nisi porro quia iure!</p>
-                    <p className="technologies-context">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ullam quidem libero officiis alias assumenda eligendi amet iure numquam ut accusamus tenetur, explicabo pariatur nobis, quo deserunt! Voluptate, consequuntur recusandae?</p>
+                    <p className="technologies-context">Apresento aqui as linguagens, plataformas e ferramentas que tenho experiências com desenvolvimento. Todo dia estudo para me aperfeiçoar.</p>
+                    <p className="technologies-context">Tenho algumas dificuldades referente a linguagem ReactJs. Com o objetivo de encarar este problema de frente, estou desenvolvendo este portfolio próprio, pois acredito que a prática leva à perfeição.</p>
+                    <p className="technologies-context">Espero que o meu desenvolvimento técnico e pessoal seja notado ao longo do tempo e espero que eu possa colocar em prática o que eu aprendi como front-end e como pessoa.</p>
+
                 </div>
                 <div className="technologies-col-2">
                     <TechnologyCard
@@ -55,6 +57,24 @@ const TechnologiesContainer = () => {
                         technologyIcon={<DiReact />}
                         technologyText={"ReactJS"}
                         technologyClass="reactjs"
+                    />
+
+                    <TechnologyCard
+                        technologyIcon={<AiFillGithub />}
+                        technologyText={"GitHub"}
+                        technologyClass="github"
+                    />
+
+                    <TechnologyCard
+                        technologyIcon={<SiBootstrap />}
+                        technologyText={"Bootstrap"}
+                        technologyClass="bootstrap"
+                    />
+
+                    <TechnologyCard
+                        technologyIcon={<SiVisualstudio />}
+                        technologyText={"VisualStudio"}
+                        technologyClass="visualstudio"
                     />
                 </div>
             </div>

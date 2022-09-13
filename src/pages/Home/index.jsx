@@ -4,7 +4,6 @@ import ProjectsContainer from "../../components/ProjectsContainer";
 import TechnologiesContainer from "../../components/TechnologiesContainer";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
-import { useState } from "react";
 
 import './styles.sass';
 
