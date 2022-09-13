@@ -7,7 +7,7 @@ import Header from "../../components/Header";
 
 import './styles.sass';
 
-const App = () => {
+const Home = () => {
   return (
     <div id="portfolio">
       <div className="portfolio-wrapper">
@@ -22,4 +22,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Home;
